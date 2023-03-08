@@ -26,8 +26,8 @@ jobs:
         run: java -jar target/april-zh-hotspot-push-1.0.0.jar
       - name: Commit files
         run: |
-          git config --local user.email "mobaijun8@163.com"
-          git config --local user.name "mobaijun"
+          git config --local user.email "791751568@qq.com"
+          git config --local user.name "adminlove520"
           git pull
           git add README.md
           git commit -m ":sparkles: update current hotspot"
